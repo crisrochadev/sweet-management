@@ -3,6 +3,9 @@
     @mousedown="mousedown"
     @mouseup="mouseup"
     @mousemove="mousemove"
+    @touchstart="mousedown"
+    @touchend="mouseup"
+    @touchmove="mousemove"
     class="w-full h-full"
     :style="{ background: bg, cursor: `url('/images/${curTool}.cur'),auto` }"
   >
